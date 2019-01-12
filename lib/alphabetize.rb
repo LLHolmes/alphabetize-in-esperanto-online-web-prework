@@ -22,6 +22,7 @@ p arr.sort_by {|string| string.chars.map{|c| esp_alph.index(c)}}]
 
 
 ascii = "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\"
+ascii = "@-\\"
 arr.sort_by{|string| string.tr(esp_alph, ascii)}
 
 #students.sort { |a, b| a <=> b }
