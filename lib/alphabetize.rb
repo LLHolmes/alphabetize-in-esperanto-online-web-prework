@@ -3,7 +3,7 @@ def alphabetize(arr)
   puts arr.inspect
   arr.sort_by! do |obj|
     puts obj
-    esperanto.each_char.index(obj)
+    esperanto.each_char
      puts "in"
   end
   puts arr.inspect
