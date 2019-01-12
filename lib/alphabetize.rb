@@ -21,10 +21,10 @@ end
 #=begin
 
 def alphabetize(sentences_array)
-  ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   sentences_array.sort_by do |sentence|
     sentence.split("").map do |character|
-      ESPERANTO_ALPHABET.index(character)
+      esperanto.index(character)
     end
   end
 end
