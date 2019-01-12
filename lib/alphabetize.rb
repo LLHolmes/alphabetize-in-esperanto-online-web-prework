@@ -2,12 +2,12 @@
 def alphabetize(arr)
   esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   arr.sort_by do |string|
-    string.split("").map do |character|
-      esperanto.index(character)
+#    string.split("").map do |character|
+#      esperanto.index(character)
       
       
-#    string.chars.map do |c| 
-#      esperanto.index(c)
+    string.chars.map do |c| 
+      esperanto.index(c)
     end
   end
 end
