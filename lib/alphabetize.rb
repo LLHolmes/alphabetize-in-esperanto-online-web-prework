@@ -1,9 +1,6 @@
-=begin
+
 def alphabetize(arr)
   esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-#  ascii = "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\"
-  puts arr.inspect
-#  puts esp_array.inspect
   arr.sort_by do |string|
     string.split("").map do |character|
       esperanto.index(character)
@@ -13,12 +10,10 @@ def alphabetize(arr)
 #      esperanto.index(c)
     end
   end
-  puts arr.inspect
-  arr
 end
-=end
 
-#=begin
+
+=begin
 
 def alphabetize(sentences_array)
   esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
