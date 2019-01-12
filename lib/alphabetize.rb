@@ -3,7 +3,8 @@ def alphabetize(arr)
 #  ascii = "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\"
   puts arr.inspect
 #  puts esp_array.inspect
-  p arr.sort_by { |string| string.chars.map{ |c| esperanto.index(c)}}]
+  p arr.sort_by { |string| string.chars.map{ |c| esperanto.index(c)}}
+  end
   puts arr.inspect
   arr
 end
