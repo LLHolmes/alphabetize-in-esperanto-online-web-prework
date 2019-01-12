@@ -1,6 +1,6 @@
 def alphabetize(arr)
   esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-  esp_array = 
+  esp_array = esperanto.split(//)
   arr.sort_by! { |obj| esperanto.each_char.index(obj) }
   arr
 end
