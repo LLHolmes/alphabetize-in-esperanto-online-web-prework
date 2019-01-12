@@ -4,6 +4,7 @@ def alphabetize(arr)
   puts arr.inspect
   puts esp_array.inspect
   arr.sort_by do |obj|
+    obj.each_char
     puts obj
     esp_array.index(obj)
       puts esp_array.index(obj)
