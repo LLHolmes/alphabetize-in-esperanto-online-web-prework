@@ -1,19 +1,14 @@
 def alphabetize(arr)
   esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-  esp_array = esperanto.split(//)
   puts arr.inspect
   puts esp_array.inspect
-  arr.sort_by do |obj|
-    obj.each_char
-    puts obj
-    esp_array.index(obj)
-      puts esp_array.index(obj)
-      puts "in"
-  end
+  arr.sort_by { |esperanto| esperanto }
   puts arr.inspect
   arr
 end
 
+
+=begin
 esp_alph = " abcĉĉdefgĝĝhĥĥijĵĵklmnoprsŝŝtuŭŭvz"
 
 arr = ["abc\u0302a", "abĉa","abca" ]
@@ -24,6 +19,7 @@ p arr.sort_by {|string| string.chars.map{|c| esp_alph.index(c)}}]
 ascii = "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\"
 ascii = "@-\\"
 arr.sort_by{|string| string.tr(esp_alph, ascii)}
+=end
 
 #students.sort { |a, b| a <=> b }
 #str = '1654AaBcDddeeFF'
