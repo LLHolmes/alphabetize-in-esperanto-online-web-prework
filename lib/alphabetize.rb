@@ -3,7 +3,7 @@ def alphabetize(arr)
   esp_array = esperanto.split(//)
   puts arr.inspect
   puts esp_array.inspect
-  arr.sort_by! do |obj|
+  arr.sort_by do |obj|
     puts obj
     esp_array.index(obj)
       puts esp_array.index(obj)
