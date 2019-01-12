@@ -8,8 +8,8 @@ def alphabetize(arr)
       esperanto.index(character)
       
       
-    string.chars.map do |c| 
-      esperanto.index(c)
+#    string.chars.map do |c| 
+#      esperanto.index(c)
   end
   puts arr.inspect
   arr
