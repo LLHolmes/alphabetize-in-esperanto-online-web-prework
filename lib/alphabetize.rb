@@ -10,6 +10,7 @@ def alphabetize(arr)
       
 #    string.chars.map do |c| 
 #      esperanto.index(c)
+    end
   end
   puts arr.inspect
   arr
