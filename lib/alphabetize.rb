@@ -5,7 +5,7 @@ def alphabetize(arr)
   puts esp_array.inspect
   arr.sort_by! do |obj|
     puts obj
-    esp_array.index(c)
+    esp_array.index(obj)
      puts "in"
   end
   puts arr.inspect
