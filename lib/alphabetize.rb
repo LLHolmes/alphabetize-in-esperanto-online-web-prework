@@ -1,9 +1,9 @@
 def alphabetize(arr)
   esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   esp_array = esperanto.split(//)
-  puts arr
+  puts arr.inspect
   arr.sort_by { |obj| esp_array.index(obj) }
-  puts arr
+  puts arr.inspect
   arr
 end
 
