@@ -1,7 +1,7 @@
 def alphabetize(arr)
   esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   puts arr.inspect
-  puts esp_array.inspect
+#  puts esp_array.inspect
   arr.sort_by { |esperanto| esperanto }
   puts arr.inspect
   arr
