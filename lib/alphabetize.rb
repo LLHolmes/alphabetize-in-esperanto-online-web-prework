@@ -5,7 +5,6 @@ def alphabetize(arr)
     puts obj
     esperanto.each_char.index(obj)
      puts "in"
-    end
   end
   puts arr.inspect
   arr
