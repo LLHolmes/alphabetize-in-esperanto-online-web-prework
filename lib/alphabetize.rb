@@ -1,8 +1,9 @@
 def alphabetize(arr)
   esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  ascii = "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\"
   puts arr.inspect
 #  puts esp_array.inspect
-  arr.sort_by { |esperanto| esperanto }
+  arr.sort_by { |string| string.tr(esperanto, ascii) }
   puts arr.inspect
   arr
 end
