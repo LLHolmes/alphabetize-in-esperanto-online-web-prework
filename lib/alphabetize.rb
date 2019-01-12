@@ -17,7 +17,11 @@ end
 esp_alph = " abcĉĉdefgĝĝhĥĥijĵĵklmnoprsŝŝtuŭŭvz"
 
 arr = ["abc\u0302a", "abĉa","abca" ]
-p arr.sort_by {|string| string.chars.map{|c| esp_alph.index(c)}}
+p arr.sort_by {|string| string.chars.map{|c| esp_alph.index(c)}}]
+
+
+
+ascii = "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\"
 
 #students.sort { |a, b| a <=> b }
 #str = '1654AaBcDddeeFF'
