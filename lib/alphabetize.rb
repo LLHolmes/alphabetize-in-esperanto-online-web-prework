@@ -1,3 +1,4 @@
+=begin
 def alphabetize(arr)
   esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 #  ascii = "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\"
@@ -15,9 +16,9 @@ def alphabetize(arr)
   puts arr.inspect
   arr
 end
+=end
 
-
-=begin
+#=begin
 
 def alphabetize(sentences_array)
   sentences_array.sort_by do |sentence|
@@ -27,6 +28,7 @@ def alphabetize(sentences_array)
   end
 end
 
+=begin
 esp_alph = " abcĉĉdefgĝĝhĥĥijĵĵklmnoprsŝŝtuŭŭvz"
 
 arr = ["abc\u0302a", "abĉa","abca" ]
@@ -44,4 +46,4 @@ arr.sort_by{|string| string.tr(esp_alph, ascii)}
 #order_array = [*'0'..'9',*'a'..'z',*'A'..'Z']
 #str.each_char.sort_by { |c| order_array.index(c) }.join
 
-alphabetize(["mi amas vin", "bonan matenon", "pacon", "ĉu vi parolas esperanton"])
+puts alphabetize(["mi amas vin", "bonan matenon", "pacon", "ĉu vi parolas esperanton"])
