@@ -16,3 +16,4 @@ end
 #order_array = [*'0'..'9',*'a'..'z',*'A'..'Z']
 #str.each_char.sort_by { |c| order_array.index(c) }.join
 
+alphabetize(["mi amas vin", "bonan matenon", "pacon", "ĉu vi parolas esperanton"])
